@@ -9,5 +9,5 @@ const p1 = Servant.deleteMany({});
 
 Promise.all([p1])
     .then(function() {
-        return Servant.create(data);
+        return Servant.create(data.servants);
     })
