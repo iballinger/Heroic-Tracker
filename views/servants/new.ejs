@@ -1,0 +1,26 @@
+<%- include('../partials/header') %>
+
+<form id="new-form" action="/servants" method="POST">
+    <label>id:</label>
+    <input type="number" name="id">
+    <label>collectionNo:</label>
+    <input type="number" name="collectionNo">
+    <label>Name:</label>
+    <input type="text" name="name">
+    <label>flag:</label>
+    <input type="text" name="flag">
+    <label>className:</label>
+    <input type="text" name="className">
+    <label>attribute:</label>
+    <input type="text" name="attribute">
+    <label>rarity:</label>
+    <input type="number" name="rarity">
+    <label>atkMax:</label>
+    <input type="number" name="atkMax">
+    <label>hpMax:</label>
+    <input type="number" name="hpMax">
+    <label>face:</label>
+    <input type="text" name="face">
+    <input type="submit" value="Add Servant">
+</form>
+<%- include('../partials/footer') %>

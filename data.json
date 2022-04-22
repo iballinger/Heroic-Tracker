@@ -1,0 +1,77 @@
+[
+    {
+        "id": 800100,
+        "collectionNo": 1,
+        "name": "Mash Kyrielight",
+        "type": "heroine",
+        "flag": "normal",
+        "className": "shielder",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 6791,
+        "hpMax": 10302,
+        "face": "https://static.atlasacademy.io/NA/Faces/f_8001000.png",
+        "costume": {
+            "800130": {
+                "id": 11,
+                "costumeCollectionNo": 1,
+                "battleCharaId": 800130,
+                "shortName": "Swimsuit of Everlasting Summer"
+            },
+            "800140": {
+                "id": 12,
+                "costumeCollectionNo": 8,
+                "battleCharaId": 800140,
+                "shortName": "Ortinax"
+            },
+            "800150": {
+                "id": 13,
+                "costumeCollectionNo": 35,
+                "battleCharaId": 800150,
+                "shortName": "Ortinax (Refurbished)"
+            }
+        }
+    },
+    {
+        "id": 100100,
+        "collectionNo": 2,
+        "name": "Altria Pendragon",
+        "type": "normal",
+        "flag": "normal",
+        "className": "saber",
+        "attribute": "earth",
+        "rarity": 5,
+        "atkMax": 11221,
+        "hpMax": 15150,
+        "face": "https://static.atlasacademy.io/NA/Faces/f_1001000.png",
+        "costume": {
+            "100130": {
+                "id": 11,
+                "costumeCollectionNo": 41,
+                "battleCharaId": 100130,
+                "shortName": "Invisible Air"
+            }
+        }
+    },
+    {
+        "id": 100200,
+        "collectionNo": 3,
+        "name": "Altria Pendragon (Alter)",
+        "type": "normal",
+        "flag": "normal",
+        "className": "saber",
+        "attribute": "human",
+        "rarity": 4,
+        "atkMax": 10248,
+        "hpMax": 11589,
+        "face": "https://static.atlasacademy.io/NA/Faces/f_1002000.png",
+        "costume": {
+            "100230": {
+                "id": 11,
+                "costumeCollectionNo": 33,
+                "battleCharaId": 100230,
+                "shortName": "Pitch Black King of Knights Shinjuku 1999 Ver."
+            }
+        }
+    }
+]
