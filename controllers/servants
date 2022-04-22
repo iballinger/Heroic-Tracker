@@ -1,0 +1,18 @@
+const Servant = require('../models/servant');
+
+module.exports = {
+    index,
+    show
+}
+
+function index(req,res) {
+    Servant.find({}, function(err,servants) {
+        res.render('servants/index', {title: 'All Servants', servants});
+    });
+}
+
+function show(req,res) {
+    Servant.findById(req.params.id).exec(function(err, servant) {
+        res.render('servants/show', {title: 'Servant Detail', servant, });
+    });
+}
