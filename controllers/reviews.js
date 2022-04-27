@@ -3,7 +3,6 @@ const Servant = require('../models/servant');
 module.exports = {
     create,
     delete: deleteReview,
-    // edit,
     update,
 }
 
@@ -31,18 +30,9 @@ function create(req, res) {
     });
 }
 
-// function edit(req,res) {
-//     Servant.findOne({'reviews._id': req.params.id}, function(err,servant) {
-//         const review = servant.reviews.id(req.params.id);
-//         res.render('reviews/edit', {review});
-//     });
-// }
-
 function update(req,res) {
-    console.log("Reviews update hit.");
     Servant.findOne({'reviews._id':req.params.id}, function(err, servant) {
         const reviewSubdoc = servant.reviews.id(req.params.id);
-        console.log(reviewSubdoc);
         if(!reviewSubdoc.user.equals(req.user._id)) return res.redirect(`/servants/${servant._id}`);
         reviewSubdoc.content = req.body.content;
         servant.save(function(err) {
