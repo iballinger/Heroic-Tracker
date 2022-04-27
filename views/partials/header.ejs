@@ -16,7 +16,6 @@
         <!--img src="/images/camera.svg"-->
         <a href="/servants" <%- title==='All Servants' ? 'class="active"' : '' %>>ALL SERVANTS</a>
         <% if (user) { %>
-        <a href="/servants/new" <%- title==='Add Servant' ? 'class="active"' : '' %>>ADD SERVANT</a>
         <a href="/logout">LOG OUT</a>
         <% } else { %>
         <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
