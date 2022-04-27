@@ -25,6 +25,7 @@ const reviewSchema = new Schema ({
 const servantSchema = new Schema ({
     id: Number,
     collectionNo: Number,
+    type: String,
     name: String,
     flag: String,
     className: String,

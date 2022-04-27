@@ -54,13 +54,21 @@
             <tr>
                 <td class="review-user"><img alt="avatar" src="<%= r.userAvatar %>"><%= r.userName %></td>
                 <td><%= r.createdAt.toLocaleDateString() %></td>
-                <td><%= r.content %></td>
+                <% if (user && user._id.equals(r.user)) { %>
+                    <form action="/reviews/<%= r._id %>?_method=PUT" method="POST">
+                        <td><input name="content" value="<%= r.content %>">
+                        <button type="submit">Edit</button></td>
+                    </form>
+                <% } else { %>
+                    <td><%= r.content %></td>
+                <% } %>
                 <td><%= r.rating %></td>
                 <td>
                     <% if (user && user._id.equals(r.user)) { %>
                     <form action="/reviews/<%= r._id %>?_method=DELETE" method="POST">
-                        <button type="submit">X</button>
+                        <button type="submit">Delete</button>
                     </form>
+                    
                     <% } %>
                 </td>
             </tr>
