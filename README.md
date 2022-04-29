@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>📈 MASTERMIND 📈</h1>
+   <h1>📈 HEROIC TRACKER 📈</h1>
    <h3><a href="https://heroic-tracker.herokuapp.com/">Use the Tracker!</a></h3>
    <h5>Ilerdon Ballinger</h5>                             
    <a href="https://github.com/iballinger/" target="_blank">
