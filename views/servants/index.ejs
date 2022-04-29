@@ -1,4 +1,5 @@
 <%- include('../partials/header') %>
+<input type="text" id="searchstring" placeholder="Search?" title="Type here!"><button id="searchbutton" type="button">Filter!</button> 
 <table id="list">
   <thead>
     <tr>
@@ -7,7 +8,7 @@
       <th></th>
     </tr>
   </thead>
-  <tbody>
+  <tbody id="indextable">
     <% servants.forEach(function(s) { %>
       <tr>
         <td><%= s.name %></td>
@@ -19,3 +20,33 @@
   </table>
   
 <%- include('../partials/footer') %>
+
+<script>
+  const table = document.getElementById('indextable');
+  const searchstring = document.getElementById('searchstring');
+  const searchbutton = document.getElementById('searchbutton');
+
+  function handleFilterClick() {
+    let filter = searchstring.value.toUpperCase();
+    rows = table.getElementsByTagName("TR");
+    let flag = false;
+
+    for (let row of rows) {
+      let cells = row.getElementsByTagName("TD");
+      for (let cell of cells) {
+        if (cell.textContent.toUpperCase().indexOf(filter) > -1) {
+          flag = true;
+          break;
+        }
+      }
+      if (flag) {
+        row.style.display = '';
+      } else {
+        row.style.display = "none";
+      }
+      flag = false;
+    }
+  }
+
+  searchbutton.addEventListener('click', handleFilterClick);
+</script>
