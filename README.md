@@ -3,13 +3,13 @@
    <h3><a href="https://heroic-tracker.herokuapp.com/">Use the Tracker!</a></h3>
    <h5>Ilerdon Ballinger</h5>                             
    <a href="https://github.com/iballinger/" target="_blank">
-      <img src="https://img.shields.io/badge/-Portfolio:_user.github.io-darkgreen?style=flat&logo=medium"/>
+      <img src="https://img.shields.io/badge/-Portfolio:iballinger.github.io-darkgreen?style=flat&logo=medium"/>
    </a>
    <a href="https://www.linkedin.com/in/ilerdon-ballinger/" target="_blank">
-      <img src="https://img.shields.io/badge/-linkedin.com/in/user-blue?style=flat&``logo=Linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/ilerdon-ballinger-blue?style=flat&``logo=Linkedin&logoColor=white">
    </a> 
    <a href="mailto:ilerdonballinger@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-user@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
+      <img src="https://img.shields.io/badge/-ilerdonballinger@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
    </a>
 <!--    <a href="https://medium.com/@user">
       <img src="https://img.shields.io/badge/-medium.com/@user-black?style=flat&logo=medium">
@@ -17,7 +17,7 @@
 </div>
 
 <h1>:pencil: Description</h1>
-<p>The Heroic Tracker currently lists all servants available - summonable or not - on the NA server of the popular mobile game Fate/ Grand Order. It provides a place for users to see common stats about each character in the game, and leave reviews - both in the form of written words, and an automatically-averaged five-star score.</p>
+<p>The Heroic Tracker currently lists all servants - summonable or not - on the NA server of the popular mobile game Fate/ Grand Order. It provides a place for users to see common stats about each character in the game, and leave reviews - both in the form of written words, and an automatically-averaged five-star score.</p>
 
 <details>
 <summary> :gear: Functionality</summary>
