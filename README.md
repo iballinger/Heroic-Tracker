@@ -63,7 +63,7 @@
 
 ### Upcoming Features
 
-Further features can be found on the <a href=https://trello.com/b/gU6Trd9E/project-2" target="_blank">Trello board</a>.
+Further features can be found on the <a href="https://trello.com/b/gU6Trd9E/project-2" target="_blank">Trello board</a>.
 
 - [ ] Track which servants each user has summoned.
 - [ ] Implement filters and sorting on the main page.
