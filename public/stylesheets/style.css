@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Helvetica;
-  color: #424748;
+  color: #023274;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 body > nav {
   grid-area: nav;
-  background-color: #B8C0C2;
+  background-color: #24688f;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -52,7 +52,7 @@ nav > a {
 
 nav > a:hover:not(.active) {
   color: white;
-  background-color: #424748;
+  background-color: #023274;
 }
 
 nav > a.active {
@@ -85,7 +85,7 @@ table {
 
 table thead th {
   padding: 5px;
-  border-bottom: 2px solid #424748;
+  border-bottom: 2px solid #023274;
 }
 
 table td {
@@ -99,7 +99,7 @@ table td {
 
 #list a {
   border-radius: 4px;
-  background-color: #B8C0C2;
+  background-color: #24688f;
   padding: 4px;
   text-decoration: none;
   font-size: 14px;
@@ -132,7 +132,7 @@ table td {
 }
 
 hr {
-  color: #424748
+  color: #023274
 }
 
 #badge-container {
@@ -140,13 +140,13 @@ hr {
   flex-wrap: wrap;
   /* padding: 1rem; */
   width: 80%;
-  border: 2px solid #B8C0C2;
+  border: 2px solid #24688f;
   border-radius: .5rem;
   margin: .5rem 0 2rem;
 }
 
 .badge {
-  background-color: #B8C0C2;
+  background-color: #24688f;
   padding: .5rem;
   margin: .5rem;
   border-radius: .3rem;
